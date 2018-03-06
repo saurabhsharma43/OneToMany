@@ -22,17 +22,18 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
-		</dependency>
+		</dependency>  -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
-		</dependency>
+		</dependency> 
 		<dependency>
+		<!-- Spring Data JPA -->
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
 			<version>1.8.0.RELEASE</version>
@@ -43,6 +44,7 @@
 			<version>1.0.0.Final</version>
 		</dependency>
 		<dependency>
+		 <!-- JPA Provider - Hibernate -->
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate.version}</version>
@@ -53,15 +55,15 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.6</version>
 		</dependency>
-		<dependency>
+		 <dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
 		</dependency>
-		<dependency>
+	<dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-jdbc</artifactId>
     <version>3.0.3.RELEASE</version>
-</dependency>
+</dependency> 
 	</dependencies>
 </project>
